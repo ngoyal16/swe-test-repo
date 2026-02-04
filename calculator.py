@@ -17,6 +17,12 @@ def divide(a, b):
     except ZeroDivisionError:
         return "Cannot divide by zero."
 
+def modulo(a, b):
+    """Return the remainder of the division of a by b."""
+    if b == 0:
+        raise ValueError("Division by zero is not allowed.")
+    return a % b
+
 def main():
     """Main function to take inputs and print the results based on operation choice."""
     try:
