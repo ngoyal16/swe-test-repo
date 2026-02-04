@@ -1,24 +1,38 @@
 # swe-test-repo
 
-## New Script: Addition and Subtraction
+This repository is designed to provide basic Python examples and solutions to various LeetCode problems. It serves as a resource for learning and practicing Python programming.
 
-This repository now includes a Python script named `add_subtract.py` that takes two inputs from the user and prints their sum and subtraction.
+## Available Scripts and Directories
 
-### How to Run the Script
+- `add_subtract.py`: A simple script that takes two inputs from the user and prints their sum and subtraction.
+- `calculator.py`: A basic calculator script for performing arithmetic operations.
+- `hello_world.py`: A script that prints "Hello, World!" to the console.
+- `reverse_string.py`: A script to reverse a given string input by the user.
+- `leetcode-solutions`: A directory containing solutions to specific LeetCode problems.
 
-To run the script, ensure you have Python installed on your system. Then, navigate to the script's directory and run the following command:
+## How to Run the Scripts
+
+To run any of the scripts, ensure you have Python installed on your system. Then, navigate to the script's directory and run the following command:
 
 ```bash
-python add_subtract.py
+python <script_name>.py
 ```
 
-### Example Usage
+Replace `<script_name>` with the name of the script you wish to run.
 
-```bash
-Enter the first number: 5
-Enter the second number: 3
-The sum of 5 and 3 is 8.
-The subtraction of 3 from 5 is 2.
-```
+## Running Tests
 
-This script is straightforward and does not require any external dependencies beyond Python itself.
+To run tests for the scripts, use the following commands:
+
+- `test_add_subtract.py`
+- `test_calculator.py`
+- `test_reverse_string.py`
+
+## Contribution Guidelines
+
+Contributors are welcome to add new scripts or improve existing ones. Please ensure your contributions are well-documented and follow the project's coding standards.
+
+## Dependencies
+
+The scripts in this repository do not require any external dependencies beyond Python itself.
+
